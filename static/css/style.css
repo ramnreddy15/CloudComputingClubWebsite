@@ -1,0 +1,158 @@
+.header {
+    background:#252422;
+    color: #EB5E28;
+    padding-top:4em;
+    padding-bottom:3em;
+    text-align: center;
+    font-size: 1.75vw;
+}
+
+td {
+    color: #252422;
+}
+td > a {
+    color: #EB5E28;
+}
+
+@media screen and (min-width: 500px) {
+    .navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    margin-left:33%;
+    text-align: center;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    margin-left:37%;
+    text-align: center;
+    }
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+@media (max-width: 500px) {
+    .navbar-nav > li  {
+        display: block;
+    }
+}
+
+.cardAbout{
+    background:#403D39;
+    border-color:#CCC5B9;
+    color:#FFFCF2;
+    align-content: center;
+    padding:0.5em;
+}
+
+.cardAbout>h4{
+    color:#FFFCF2;
+}
+
+.cardAbout>h6{
+    color:#FFFCF2;
+}
+
+.cardAbout>a{
+    color:#EB5E28;
+    text-align:center;
+}
+
+.content {
+    background:#CCC5B9;
+    color: #252422;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    padding: 0;
+    margin: 14px;
+}
+
+.button:hover {
+    text-decoration: underline;
+}
+
+.navbar-nav > li > a {
+  color: #333;
+  border-bottom: 1px solid transparent;
+   /*add spacing*/
+}
+
+.column {
+    width: 25%;
+}
+
+.row::after {
+    display: table;
+}
+
+p,h1,h2,h3,h5,ul{
+    padding:0 10%;
+}
+.dropdown{
+    padding:0 10%;
+    visibility: visible;
+    
+}
+
+h1{
+    font-size:220%;
+    
+}
+h2{
+    font-size:200%;
+}
+h3{
+    font-size:175%;
+}
+h4{
+    font-size:130%;
+}
+h5{
+    font-size:115%;
+}
+h6{
+    font-size:85%;
+}
+p,li,td{
+    font-size:115%;
+}
+a{
+    font-size:100%;
+}
+th{
+    font-size:120%;
+    text-align: center;
+    color:black;
+}
+.container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.avatar {
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.table-active {
+    background: #FFFFFF;
+}

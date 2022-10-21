@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TJHSST Cloud Computing Home</title>
+    
+
+    <!--bootswatch theme: lux -->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/lux/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="icon" type="image/x-icon" href="static/imgs/tjhsst.jpg">
+    <script>
+    $(function(){
+        $("#navbar").load("../nav");
+        $("#dropdown").load("../dropdown");
+    });
+    </script>
+</head>
+
+<body>
+    <div class="header">
+          <h1 style="color:#EB5E28">TJ Cloud Computing Club</h1>
+    </div>
+    <div id="navbar"></div>
+    <div class="content">
+        <br><br>
+        <h2>Lectures 2021-2022</h2>
+        <br><br>
+        <div id="dropdown"></div>
+        <br><br>
+        <div>
+        <table class="table" style="width:100%">
+            <thead>
+                <tr>
+                    <th>DATE</th>
+                    <th>DESCRIPTION</th>
+                    <th>DOWNLOAD PDF</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="text-align:center">Oct 8, 2021</td>
+                    <td style="text-align:center">Virtual Machines</td>
+                    <td style="text-align:center"><a href="/cloudcomputing/lectures/21-22/Virtual_Machines.pdf" target="_blank">PDF</a></td>
+                </tr>
+                <tr>
+                    <td style="text-align:center">Oct 15, 2021</td>
+                    <td style="text-align:center">Storage</td>
+                    <td style="text-align:center"><a href="/cloudcomputing/lectures/21-22/Storage.pdf" target="_blank">PDF</a></td>
+                </tr>
+                <tr>
+                    <td style="text-align:center">Oct 22, 2021</td>
+                    <td style="text-align:center">Cloud Computing in the Era of COVID-19</td>
+                    <td style="text-align:center"><a href="/cloudcomputing/lectures/21-22/Covid.pdf" target="_blank">PDF</a></td>
+                </tr>
+                <tr>
+                    <td style="text-align:center">Oct 29, 2021</td>
+                    <td style="text-align:center">Virtual Private Clouds</td>
+                    <td style="text-align:center"><a href="/cloudcomputing/lectures/21-22/Virtual_Private_Clouds.pdf" target="_blank">PDF</a></td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        
+        <h3><b><b><b>Contact Us</b></b></b></h3>
+        <p>Any questions or concerns? Email us at <a href="mailto:tjcloudcomputingclub@gmail.com" style="color:#EB5E28">tjcloudcomputingclub@gmail.com</a>
+            or check out our Facebook page: <a href="https://www.facebook.com/groups/1550824791714819/" target="_blank" style="color:#EB5E28">TJ Cloud Computing Club.</a></p>
+        <br><br>
+    </div>
+</body>
